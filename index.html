@@ -1,133 +1,207 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Website</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
 
     <!-- Update these with your own fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="css/style.css">
-    
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <header>
-        <div class="logo">
-            <img src="./img/Freelancing-Logo.svg" alt="Logo">
-        </div>
-        <button class="nav-toggle" aria-label="toggle=navigation">
-            <span class="hamburger"></span>
-        </button>
-        <nav class="nav">
-            <ul class="nav__list">
-                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
-                <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
-                <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
-            </ul>
-        </nav>
+      <div class="logo">
+        <img src="./img/Freelancing-Logo.svg" alt="Logo" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle=navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <!-- Introduction -->
     <section class="intro" id="home">
-        <h1 class="section__title section__title--intro">
-            Hi, I am <strong>Justin Quinn</strong>
-        </h1>
-        <p class="section__subtitle section__subtitle--intro">WEB DEVELOPER</p>
-        <img src="img/Portrait.png" alt="a picture of Justin Quinn smiling" class="intro__img">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Justin Quinn</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">WEB DEVELOPER</p>
+      <img
+        src="./img/Portrait.jpg"
+        alt="a picture of Justin Quinn smiling"
+        class="intro__img"
+      />
     </section>
 
     <!-- My Services -->
     <section class="my-services" id="services">
-        <h2 class="section__title section__title--services">What I Do</h2>
-        <div class="services">
-            <div class="service">
-                <h3>Consultation</h3>
-                <p>A free consultation is provided to every client, regardless of the size and scope of the project. We will discuss goals, expectations, timelines, and cost to create a completely bespoke plan, tailored to the client's needs.</p>
-            </div> <!-- / service -->
+      <h2 class="section__title section__title--services">Services</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Consultation</h3>
+          <p>
+            A free consultation is provided to every client, regardless of the
+            size and scope of the project. We will discuss goals, expectations,
+            timelines, and cost to create a completely bespoke plan, tailored to
+            the client's needs.
+          </p>
+        </div>
+        <!-- / service -->
 
-            <div class="service">
-                <h3>Design + Build</h3>
-                <p>The unique business requirements of every client will dictate the best tools to use for the job. The client will be kept apprised of all progress with weekly updates, to avoid any surprises. They can also rest assured that their site has been optimized for SEO and accessibility, ensuring their website will rank higher than their competitors on any given Google search.</p>
-            </div> <!-- / service -->
+        <div class="service">
+          <h3>Design + Build</h3>
+          <p>
+            The unique business requirements of every client will dictate the
+            best tools to use for the job. The client will be kept apprised of
+            all progress with weekly updates, to avoid any surprises. They can
+            also rest assured that their site has been optimized for SEO and
+            accessibility, ensuring their website will rank higher than their
+            competitors on any given Google search.
+          </p>
+        </div>
+        <!-- / service -->
 
-            <div class="service">
-                <h3>Launch</h3>
-                <p>After the final version is completed, the client confirms they're happy with the work, and sends the final payment. All of the code is then uploaded to the client's registered domain, and their new site is now live!</p>
-            </div> <!-- / service -->
-        </div> <!-- / services -->
+        <div class="service">
+          <h3>Launch</h3>
+          <p>
+            After the final version is completed, the client confirms they're
+            happy with the work, and sends the final payment. All of the code is
+            then uploaded to the client's registered domain, and their new site
+            is now live!
+          </p>
+        </div>
+        <!-- / service -->
+      </div>
+      <!-- / services -->
 
-        <a href="#work" class="btn">My Work</a>
-
+      <a href="mailto:JustinQuinn@protonmail.com" target="_blank" class="btn"
+        >CONTACT ME</a
+      >
     </section>
 
     <!-- About Me -->
     <section class="about-me" id="about">
-        <h2 class="section__title section__title--about">Who I Am</h2>
-        <p class="section__subtitle section__subtitle--about">Developer based out of NYC</p>
+      <h2 class="section__title section__title--about">Who I Am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Developer based out of NYC & PA
+      </p>
 
-        <div class="about-me__body">
-            <p>Do you remember that kid who alway asked, "But..why?" about a half dozen times too many? Well, I was that kid, and unfortunately for all of my friends, family, and coworkers, not much has changed in that department. This insatiable curiosity meant that I couldn't resist any field where I continually questioned how much I knew and how well I knew it. Software engineering continues to provide that challenge for me. Who knew I could get paid to learn? I hope my employers don't catch on anytime soon...</p>
-            <p>When I'm not busy ruining my already poor eyesight staring at monitors, and being soothed by the "click-clack" of a mechanincal keyboard, you can find me hopping on the nearest red-eye to "parts unknown." I also love chasing a little white ball around a field at my nearest municipal golf course, and sitting down to yet another Netflix documentary with a nice hot cuppa', on what is sure to be an exhilerating Friday night.</p>
-        </div>
+      <div class="about-me__body">
+        <p>
+          Do you remember that kid who alway asked, "But..why?" about a half
+          dozen times too many? Well, I was that kid, and unfortunately for all
+          of my friends, family, and coworkers, not much has changed in that
+          department. This insatiable curiosity meant that I couldn't resist any
+          field where I continually questioned how much I knew and how well I
+          knew it. Software engineering continues to provide that challenge for
+          me. Who knew I could get paid to learn? I hope my employers don't
+          catch on anytime soon...
+        </p>
+        <p>
+          When I'm not busy ruining my already poor eyesight staring at
+          monitors, and being soothed by the "click-clack" of a mechanincal
+          keyboard, you can find me hopping on the nearest red-eye to "parts
+          unknown." I also love chasing a little white ball around a field at my
+          nearest municipal golf course, and sitting down to yet another Netflix
+          documentary with a nice hot cuppa', on what is sure to be an
+          exhilerating Friday night.
+        </p>
+      </div>
 
-        <img src="img/Portrait2.jpg" alt="a picture of Justin Quinn smiling" class="about-me__img">
+      <img
+        src="img/Portrait2.jpg"
+        alt="a picture of Justin Quinn smiling"
+        class="about-me__img"
+      />
     </section>
 
     <!-- My Work -->
-    <section class="my-work" id="work">
-        <h2 class="section__title section__title--work">My Work</h2>
-        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
-
-        <div class="portfolio">
-
-            <!-- Porfolio item 01 -->
-            <a target="_blank" href="https://star-trek-federation-field-guide.netlify.app/" class="portfolio__item">
-                <img src="./src/lcars copy.gif" alt="" class="portfolio__img">
-            </a>
-
-
-            <!-- Porfolio item 02 -->
-            <a target="_blank" href="https://todo-list-mvc.fly.dev/" class="portfolio__item">
-                <img src="./src/todo-list copy.gif" alt="" class="portfolio__img">
-            </a>
-        
-
-            <!-- Porfolio item 03 -->
-            <a target="_blank" href="https://workout-tracker.fly.dev/" class="portfolio__item">
-                <img src="./src/workout-buddy copy.gif" alt="" class="portfolio__img">
-            </a>
-        
-    </section>
+    <!-- <section class="my-work" id="work"> -->
+    <!--     <h2 class="section__title section__title--work">My Work</h2> -->
+    <!--     <p class="section__subtitle section__subtitle--work">A selection of my range of work</p> -->
+    <!---->
+    <!--     <div class="portfolio"> -->
+    <!---->
+    <!--         <!-- Porfolio item 01 -->
+    <!--         <a target="_blank" href="https://star-trek-federation-field-guide.netlify.app/" class="portfolio__item"> -->
+    <!--             <img src="./src/lcars copy.gif" alt="" class="portfolio__img"> -->
+    <!--         </a> -->
+    <!---->
+    <!---->
+    <!--         <!-- Porfolio item 02 -->
+    <!--         <a target="_blank" href="https://todo-list-mvc.fly.dev/" class="portfolio__item"> -->
+    <!--             <img src="./src/todo-list copy.gif" alt="" class="portfolio__img"> -->
+    <!--         </a> -->
+    <!---->
+    <!---->
+    <!--         <!-- Porfolio item 03 -->
+    <!--         <a target="_blank" href="https://workout-tracker.fly.dev/" class="portfolio__item"> -->
+    <!--             <img src="./src/workout-buddy copy.gif" alt="" class="portfolio__img"> -->
+    <!--         </a> -->
+    <!---->
+    <!-- </section>  -->
 
     <!-- Footer -->
-    <footer class="footer">
-        <a href="mailto:JustinQuinn@protonmail.com" class="footer__link">JustinQuinn@protonmail.com
-        </a>
-        <ul class="social-list">
-            <li class="social-list__item">
-                <a href="https://twitter.com/JustinQuinn_" class="social-list__link" target="_blank">
-                    <i class="fa-brands fa-twitter"></i>
-                </a>
-            </li>
-            <li class="social-list__item">
-                <a href="https://github.com/Justin-Quinn51" class="social-list__link" target="_blank">
-                    <i class="fa-brands fa-github"></i>
-                </a>
-            </li>
-            <li class="social-list__item">
-                <a href="https://www.linkedin.com/in/justin-quinn-/" class="social-list__link" target="_blank">
-                    <i class="fa-brands fa-linkedin"></i>
-                </a>
-            </li>
-        </ul>
+    <footer id="contact" class="footer">
+      <a href="mailto:JustinQuinn@protonmail.com" class="footer__link"
+        >JustinQuinn@protonmail.com
+      </a>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            href="https://www.facebook.com/JQSoftwareSolutions"
+            class="social-list__link"
+            target="_blank"
+          >
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            href="https://www.linkedin.com/in/justin-quinn-/"
+            class="social-list__link"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+      </ul>
     </footer>
 
-<script src="https://kit.fontawesome.com/f18ecfa22b.js" crossorigin="anonymous"></script>
-<script src="js/index.js"></script>
-</body>
+    <script
+      src="https://kit.fontawesome.com/f18ecfa22b.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/index.js"></script>
+  </body>
 </html>
