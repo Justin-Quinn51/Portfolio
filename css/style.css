@@ -437,7 +437,7 @@ header {
 /* Footer */
 
 .footer {
-  background: var(--clr-accent);
+  background: var(--clr-blue);
   color: var(--clr-light);
   text-align: center;
   padding: 2.5em 0;
